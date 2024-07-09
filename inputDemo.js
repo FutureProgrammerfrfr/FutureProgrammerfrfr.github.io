@@ -8,7 +8,7 @@ function outputDemo()
 
   alert(output);
 
-  document.getElementById("output").innerHTML = "You entered: " + output;
+  document.getElementById("output").innerHTML="You entered: "+output;
 }
 
 

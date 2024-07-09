@@ -1,6 +1,6 @@
 console.log("JS File Loaded");
 
-function outputdemo()
+function outputDemo()
 {
   let output = document.getElementById("myText").value;
 

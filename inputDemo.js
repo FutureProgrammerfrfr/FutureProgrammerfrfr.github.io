@@ -5,6 +5,8 @@ function outputDemo()
   let output = document.getElementById("myText").value;
 
   console.log(output);
+
+  alert(output);
 }
 
 

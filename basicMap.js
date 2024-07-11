@@ -16,6 +16,6 @@ let marker = L.marker(
   [35.2176665, -80.831473], {
     title: "CPCC Central Campus"
   }
-).bindPopup("<h1>Hello from CPCC!</h1> '<iframe width="560" height="315" src="https://www.youtube.com/embed/SIOicrto1yw?si=ourVtnJpfmKsnnwX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'")
+).bindPopup(`<h1>Hello from CPCC!</h1> <iframe width="560" height="315" src="https://www.youtube.com/embed/SIOicrto1yw?si=ourVtnJpfmKsnnwX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
   .addTo(map);
 

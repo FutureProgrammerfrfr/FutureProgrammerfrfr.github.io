@@ -1,10 +1,10 @@
 console.log("Hello World!")
 console.log("JK JS FIle was loaded")
 
-// 35.2176665 W, 80.31473 N -> 35.2176665, -80.31473
+// 35.2176665 W, 80.831473 N -> 35.2176665, -80.831473
 
 let map = L.map("map", {
-  center: [35.2176665, -80.31473],
+  center: [35.2176665, -80.831473],
   zoom: 15
 });
 

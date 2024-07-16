@@ -20,4 +20,8 @@ let marker = L.marker(
 
 // 37.551170, 126.988228 N Seoul Tower
 
-
+l.circle([37,551170, 126.988228], {
+        fillcolor: "teal";
+        color: "white";
+        radius: 1000;
+}).addTo(map); 

@@ -4,7 +4,7 @@ console.log("Yes this runs")
 
 let map = L.map("map", {
   center: [37.5519, 126.9918],
-  zoom: 20
+  zoom: 15
 });
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

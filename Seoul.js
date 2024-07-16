@@ -23,5 +23,5 @@ let marker = L.marker(
 L.circle([37,551170, 126.988228], {
         fillcolor: "orange",
         color: "white",
-        radius: 1000px
+        radius: 1000
 }).addTo(map); 

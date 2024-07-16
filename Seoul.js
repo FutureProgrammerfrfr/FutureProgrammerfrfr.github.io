@@ -17,3 +17,7 @@ let marker = L.marker(
   }
 ).bindPopup(`<h2>Welcome to SEOUL!</h2> <p>Here's a video of Seoul's streets!</p> <iframe width="320" height="320" src="https://www.youtube.com/embed/YAZpV7uFCQ8?si=wMR3eChxZdGtJJkG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
   .addTo(map);
+
+// 37.551170, 126.988228 N Seoul Tower
+
+

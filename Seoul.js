@@ -24,4 +24,7 @@ L.circle([37.551170, 126.988228], {
         fillColor: "blue",
         color: "red",
         radius: 500
-}).addTo(map); 
+}).bindPopup(`<h1>Here's a tour of N Seoul Tower!</h1> <iframe width="315" height="320" src="https://www.youtube.com/embed/MztdCVDzeH0?si=Xq0115afwE0zek0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+  .addTo(map); 
+
+

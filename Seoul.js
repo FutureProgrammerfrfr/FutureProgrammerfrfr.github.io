@@ -15,5 +15,5 @@ let marker = L.marker(
   [37.532600, 127.024612], {
     title: "South Korea, Seoul"
   }
-).bindPopup(<h2>Hello from SEOUL</h2>)
+).bindPopup(`<h2>Hello from SEOUL</h2>`)
   .addTo(map);

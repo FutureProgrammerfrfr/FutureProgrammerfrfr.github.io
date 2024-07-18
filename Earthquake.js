@@ -10,8 +10,8 @@ d3.json(url).then(
 );
 
 let map = L.map("map", {
-    center: [23, 46],
-    zoom: 8 
+    center: [37.89, -35.71],
+    zoom: 5 
 });
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
